@@ -214,7 +214,8 @@ if __name__ == '__main__':
     plt.xlabel('Date')
     plt.ylabel('Cumulative Return')
     plt.legend()
-    plt.show()
+    plt.savefig("traditional_trading.PNG")
+    #plt.show()
 
     # Calculate risk-adjusted metrics
     agent_returns = df['Return'].values
